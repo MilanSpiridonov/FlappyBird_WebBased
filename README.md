@@ -5,8 +5,6 @@ It's written on only HTML, CSS and plain JS. (This project cost me my sanity)
 It uses the css "left" and "top" attributes and some javascript magic to calculate
 movement and the bounding boxes for the collision system.
 
-<img src="">
-
 You can test it out here:
 http://portfoliowebsitetest123.rf.gd/main.php
 
