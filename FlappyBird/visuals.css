@@ -1,0 +1,93 @@
+.mainContainer
+{
+    width: 800px;
+    height: 800px;
+    position: absolute;
+    border: 1px solid black;
+    -webkit-text-stroke-width: 50px;
+    
+}
+#bg{
+    position: absolute;
+    width: 100%;
+    bottom:0px;
+}
+#border1{
+    position: absolute;
+    z-index: 20000;
+    width:2000px;
+    height: 500px;
+    bottom:-501px;
+    background-color: white;
+}
+
+#border2{
+    position: absolute;
+    z-index: 20000;
+    width:2000px;
+    height: 126px;
+    top:-127px;
+    background-color: white;
+}
+
+#border3{
+    position: absolute;
+    z-index: 20000;
+    width:2000px;
+    height: 2000px;
+    right:-2001px;
+    background-color: white;
+}
+
+#border4{
+    position: absolute;
+    z-index: 20000;
+    width:2000px;
+    height: 2000px;
+    left:-2001px;
+    top:-500px;
+    background-color: white;
+}
+#bird{
+    position: absolute;
+
+  height: 85px;
+  width: 85px;
+  border-radius: 50%;
+  display: inline-block;
+    left:100px;
+}
+#pipe1 {
+    position: absolute;
+    height: 900px;
+    left:900px;
+    top:1px;
+}
+
+#pipe2 {
+    position: absolute;
+    height: 900px;
+    left:900px;
+    top:1px;
+}
+
+#pipe3 {
+    position: absolute;
+    height: 900px;
+    left:900px;
+    top:1px;
+}
+#ScoreBoard{
+    position: absolute;
+    width:800px;
+    z-index: 1000;
+    font-size: 52pt;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    top:-30px;
+    display:flex;
+    justify-content: center;
+    color:white;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
